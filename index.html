@@ -54,7 +54,7 @@
 
             // テクスチャー読み込み
             var textureLoader = new THREE.TextureLoader();
-            var texture = textureLoader.load("img/sea.jpg");
+            var texture = textureLoader.load("sea.jpg");
             var mat = new THREE.MeshPhongMaterial();
             mat.map = texture;
 
@@ -70,7 +70,7 @@
 
             // テクスチャー読み込み
             var textureLoader = new THREE.TextureLoader();
-            var texture = textureLoader.load("img/deepsea.jpg");
+            var texture = textureLoader.load("deepsea.jpg");
             var mat = new THREE.MeshPhongMaterial();
             mat.map = texture;
 
@@ -87,7 +87,7 @@
 
             // イルカのテクスチャー読み込み
             var textureLoader = new THREE.TextureLoader();
-            var texture0 = textureLoader.load("img/iruka.png");
+            var texture0 = textureLoader.load("iruka.png");
             // 板ポリ左用
             var mat0 = new THREE.MeshLambertMaterial();
             mat0.map = texture0;
@@ -98,7 +98,7 @@
 
             // イルカをスプライトで作成
             var textureLoader = new THREE.TextureLoader();
-            var texture = textureLoader.load("img/iruka.png");
+            var texture = textureLoader.load("iruka.png");
             const material = new THREE.SpriteMaterial({ map: texture,});
 
             for (let i = 0; i < 6; i++) {
